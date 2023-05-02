@@ -1,0 +1,13 @@
+.allbtn {
+  display: flex;
+  float: right;
+  gap: 20px;
+}
+
+#minuscount {
+  cursor: pointer;
+}
+
+#pluscount {
+  cursor: pointer;
+}/*# sourceMappingURL=basket.css.map */

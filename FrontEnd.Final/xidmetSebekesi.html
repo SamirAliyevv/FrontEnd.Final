@@ -1,0 +1,399 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/cards.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/xidmetstyle.css">
+
+    <title>Document</title>
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/latest/maptiler-sdk.umd.min.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/latest/maptiler-sdk.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <nav id="nav">
+            <div class="container pt-3 pb-2" id="ct">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8 ">
+                        <div class="nav-left">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-lg-1">
+                                    <div class="imgbox">
+                                        <img src="https://unibank.az/assets/images/logonew-orange1.png" alt="" id="img">
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-11">
+                                    <div class="text">
+                                        <a href="">Xidmət Şəbəkəsi</a>
+                                        <a href=""> Bank haqqında</a>
+                                        <a href=""> Keşbek </a>
+                                        <a href=""> Tariflər </a>
+                                        <a href="">İnsan Resursları</a>
+                                        <a href="">Bankla əlaqədər və təkliflər</a>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-right">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="ferdi" id="ferdi">
+                                    <span class="word">Fərdi</span>
+                                </div>
+                                <div class="biznes" id="biznes">
+                                    <span class="word2">Biznes</span>
+
+                                </div>
+
+                                <div class="darkmode" id="darkmode">
+                                    <input type="checkbox" class="checkbox" id="checkbox">
+                                    <label for="checkbox" class="checkbox-label">
+                                        <i class="fas fa-sun" onclick="light()"></i>
+                                        <i class="fas fa-moon" id="moon" onclick="dark()"></i>
+                                        <span class="ball"></span>
+                                    </label>
+                                </div>
+                                <div class="translate">
+                                    <span>ENG</span>
+                                </div>
+                                <div class="translate2" id="translate2">
+                                    <span>RUS</span>
+                                </div>
+                                <div class="search">
+                                    <a href="/html/basket.html">  <i class="fa-solid fa-basket-shopping" ></i></a>
+                                    
+                                    </div>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="nav2">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-9">
+                            <div class="nav2left" id="nav2left">
+                                <a href="/cards.html">Kartlar</a>
+                                <a href=""> Kreditler</a>
+                                <a href=""> Əmanətlər</a>
+                                <a href="">Köçürmələr</a>
+                                <a href="">Rəqamsal bankçılıq</a>
+                                <a href=""> Əlavə Xidmətlər</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="nav2right position-relative">
+
+                                <div class="phone" id="phone">
+                                    <i class="fa-sharp fa-solid fa-phone" style="color: #ff6600;"></i>
+                                    <a href="tel:117">117</a>
+                                </div>
+                                <div class="bankciliq" id="bankciliq">
+                                    <i class="fa-solid fa-arrow-right-long" style="color: #ffae00;"></i>
+                                    <a href="">İnternet bankçılıq</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="sidebar position-relative" id="sidebarmobile">
+
+            <div class="sidebar" id="mySidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <div id="slidebtn"><a href="#" id="ferdi">Fərdi</a></div>
+                <div class="sidebtn"><a href="#" id="biznes">Biznes</a></div>
+
+                <a href="" class="all" id="all" style="margin-top: 20
+                px;">Kartlar</a>
+                <a href="" class="all" id="all"> Kreditler</a>
+                <a href="" class="all" id="all"> Əmanətlər</a>
+                <a href="" class="all" id="all">Köçürmələr</a>
+                <a href="" class="all" id="all">Rəqamsal bankçılıq</a>
+                <a href="" class="all" id="all"> Əlavə Xidmətlər</a>
+                <a href="" class="all fs-6">Xidmət Şəbəkəsi</a>
+                <a href="" class="all fs-6">Bank haqqında</a>
+                <a href="" class="all fs-6">Keşbek</a>
+                <a href="" class="all fs-6">Tariflər</a>
+                <a href="" class="all fs-6">İnsan Resursları</a>
+                <a href="" class="all fs-6">Bankla əlaqə və təkliflər</a>
+
+            </div>
+
+            <div class="openbutton1">
+                <button class="openbtn" onclick="openNav()"><span>☰</span></button>
+            </div>
+
+        </div>
+
+        <section id="maps">
+            <div class="container">
+                <h3>Xidmət şəbəkəsi</h3>
+                <div class="allbuttons">
+                    <button id="firstbtn" class="active">Bütün filiallar</button>
+                    <button>Şənbə filialları</button>
+                    <button>Biznes filialları</button>
+                    <button>UTM</button>
+                    <button>Terminallar</button>
+
+                </div>
+
+                <div id="map"></div>
+            </div>
+        </section>
+        <section id="xidmetvaxtlari">
+            <div class="container">
+                <div class="xidmetvaxtlari">
+                    <div class="samecard">
+                        <div class="lefttext">
+                            <h4>Mərkəzi ofis</h4>
+                            <p>Bakı ş., R.Behbudov küç. 55, AZ1014</p>
+                        </div>
+                        <div class="center">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri. VİP-bankçılıq.</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Rəqəmsal filial</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə: 10:00 –15:00
+                                Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right2">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Tovuz filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Bərdə filialı</h4>
+                            <p>Bərdə ş., H. Əliyev pr., 72</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Xırdalan filialı</h4>
+                            <p>Xırdalan ş., M.Hüseynzadə küç., 6</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Şəki filialı </h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                        
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Quba filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Kəpəz filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Şəmkir filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Əcəmi filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" ></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                    <div class="samecard2">
+                        <div class="lefttext2">
+                            <h4>Nizami filialı</h4>
+                            <p>S.S.Axundov küç., 42</p>
+                        </div>
+                        <div class="center2">
+                            <i class="fa-regular fa-clock" style="color: #ff6400;"></i>
+                            <p>
+                                Bazar ertəsi - Cümə 9:00 – 18:00*
+                                Şənbə/Bazar: fəaliyyət göstərmir.</p>
+                        </div>
+                        <div class="right3">
+                            <i class="fa-solid fa-circle-info" style="color: #ff6400;"></i>
+                            <p>Fiziki və hüquqi şəxslər üçün bank xidmətləri</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/xidmetsebekesi.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/cardindex.js"></script>
+
+
+
+
+</body>

@@ -1,0 +1,447 @@
+nav {
+  padding: 0px;
+  background-color: #FAFAFA;
+}
+
+.nav-left {
+  padding: 1px 10px;
+}
+.nav-left .imgbox img {
+  width: 60%;
+}
+.nav-left .text a {
+  text-decoration: none;
+  color: #636363;
+  margin: 0 7px;
+  word-spacing: 1px;
+  font-size: 14px;
+}
+
+.nav-right {
+  padding: 1px 10px;
+}
+.nav-right .ferdi {
+  width: 20%;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #FF6400;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  color: #FF6400;
+}
+.nav-right .defaultcolor {
+  color: black;
+  border: 1px solid white;
+}
+.nav-right .color {
+  color: #FF6400;
+  cursor: pointer;
+  border: 1px solid #FF6400;
+}
+.nav-right .biznes {
+  width: 20%;
+  padding: 6px 10px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+}
+.nav-right .word {
+  padding-left: 13px;
+}
+.nav-right .word2 {
+  padding-left: 10px;
+}
+.nav-right .darkmode {
+  width: 9%;
+  display: inline-block;
+}
+.nav-right .translate {
+  width: 12%;
+  padding: 5px 13px;
+  border-radius: 6px;
+  margin-left: 40px;
+  background-color: #ffffff;
+}
+.nav-right .translate2 {
+  width: 12%;
+  padding: 5px 13px;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  display: inline;
+}
+.nav-right .search {
+  width: 8%;
+  padding: 5px 13px;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: #ffffff;
+}
+
+.nav2left {
+  padding-top: 30px;
+  display: flex;
+  gap: 45px;
+}
+.nav2left a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  font-family: sans-serif, Arial;
+  font-size: 18px;
+}
+
+.nav2right {
+  padding-top: 30px;
+  width: 100%;
+}
+.nav2right .phone {
+  width: 35%;
+  border-radius: 30px;
+  padding: 13px 25px;
+  border: 1px solid rgb(221, 220, 220);
+  display: inline-block;
+}
+.nav2right .phone a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.nav2right .bankciliq {
+  width: 63%;
+  border-radius: 30px;
+  padding: 13px 15px;
+  border: 1px solid rgb(221, 220, 220);
+  display: inline-block;
+}
+.nav2right .bankciliq a {
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+main #maps h3 {
+  color: #FF6400;
+  margin-top: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+main #maps #map {
+  width: 100%;
+  height: 325px;
+  margin-top: 90px;
+}
+main #maps .allbuttons button {
+  padding: 15px 35px;
+  background-color: #FAFAFA;
+  margin: 0px 5px;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 40px;
+}
+main #maps #firstbtn {
+  padding: 15px 35px;
+  margin: 0px 5px;
+  border-radius: 40px;
+}
+main #maps .active {
+  color: #FF6400 !important;
+  font-weight: bold !important;
+  padding: 15px 35px;
+  margin: 0px 5px;
+  border-radius: 40px;
+  border: 2px solid rgb(209, 95, 14);
+  border-color: #FF6400 !important;
+  background-color: #ffffff;
+}
+main #xidmetvaxtlari {
+  margin: 20px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard {
+  background-color: #FAFAFA;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard:hover {
+  background-color: #FF6400;
+  color: #ffffff;
+  font-weight: bold;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard:hover i {
+  color: #ffffff !important;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard i {
+  color: #FF6400;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .lefttext h4 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .lefttext p {
+  width: 160%;
+  padding-left: 30px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .center {
+  display: flex;
+  padding-top: 20px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .center i {
+  font-size: 40px;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .center p {
+  width: 65%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .right {
+  display: flex;
+  padding-top: 20px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .right i {
+  padding-top: 6px;
+  padding-right: 10px;
+  font-size: 40px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard .right p {
+  width: 65%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 {
+  background-color: #FAFAFA;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2:hover {
+  transition: 0.5s;
+  background-color: #FF6400;
+  color: #ffffff;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2:hover i {
+  color: #ffffff !important;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .lefttext2 h4 {
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 140%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .lefttext2 p {
+  width: 160%;
+  padding-left: 30px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 i {
+  font-size: 40px;
+  padding-right: 8px;
+  padding-top: 6px;
+  color: #FF6400;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 p {
+  width: 65%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 0px;
+  width: 45%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 i {
+  padding-top: 0px;
+  padding-right: 10px;
+  font-size: 40px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 p {
+  font-size: 13px;
+  width: 90%;
+  padding-top: 10px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 {
+  display: flex;
+  padding-top: 30px;
+  width: 35%;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 i {
+  padding-top: 0px;
+  padding-right: 15px;
+  font-size: 40px;
+}
+main #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 p {
+  font-size: 13px;
+  width: 90%;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  main #maps h3 {
+    color: #FF6400;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  main #maps #map {
+    width: 100%;
+    height: 325px;
+    margin-top: 90px;
+  }
+  main #maps .allbuttons button {
+    padding: 15px 35px;
+    background-color: #FAFAFA;
+    margin: 0px 5px;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 40px;
+    display: none;
+  }
+  main #maps #firstbtn {
+    padding: 15px 35px;
+    margin: 0px 5px;
+    border-radius: 40px;
+  }
+  main #maps .active {
+    color: #FF6400 !important;
+    font-weight: bold !important;
+    padding: 15px 35px;
+    margin: 0px 5px;
+    border-radius: 40px;
+    border: 2px solid rgb(209, 95, 14);
+    border-color: #FF6400 !important;
+    background-color: #ffffff;
+  }
+  #xidmetvaxtlari {
+    margin: 20px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard {
+    background-color: #FAFAFA;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard:hover {
+    background-color: #FF6400;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard:hover i {
+    color: #ffffff !important;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard i {
+    color: #FF6400;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .lefttext h4 {
+    padding-left: 1px;
+    font-size: 10px !important;
+    display: block;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .lefttext p {
+    width: 860%;
+    padding-left: 30px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .center {
+    display: flex;
+    padding-top: 20px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .center i {
+    font-size: 10px;
+    padding-top: 6px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .center p {
+    width: 65%;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .right {
+    display: flex;
+    padding-top: 20px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .right i {
+    padding-top: 6px;
+    padding-right: 10px;
+    font-size: 40px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard .right p {
+    width: 65%;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 {
+    background-color: #FAFAFA;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2:hover {
+    transition: 0.5s;
+    background-color: #FF6400;
+    color: #ffffff;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2:hover i {
+    color: #ffffff !important;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .lefttext2 h4 {
+    padding-left: 0px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .lefttext2 p {
+    width: 160%;
+    padding-left: 30px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 {
+    display: flex;
+    padding-top: 30px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 i {
+    font-size: 40px;
+    padding-right: 8px;
+    padding-top: 6px;
+    color: #FF6400;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .center2 p {
+    width: 65%;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 {
+    display: flex;
+    padding-top: 30px;
+    padding-right: 0px;
+    width: 45%;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 i {
+    padding-top: 0px;
+    padding-right: 10px;
+    font-size: 40px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right2 p {
+    font-size: 13px;
+    width: 90%;
+    padding-top: 10px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 {
+    display: flex;
+    padding-top: 30px;
+    width: 35%;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 i {
+    padding-top: 0px;
+    padding-right: 15px;
+    font-size: 40px;
+  }
+  #xidmetvaxtlari .xidmetvaxtlari .samecard2 .right3 p {
+    font-size: 13px;
+    width: 90%;
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=xidmetstyle.css.map */

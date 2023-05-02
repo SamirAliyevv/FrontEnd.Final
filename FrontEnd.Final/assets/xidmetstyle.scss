@@ -1,0 +1,382 @@
+nav {
+  padding: 0px;
+  background-color: #FAFAFA;
+}
+
+$maincolor : #FF6400;
+
+.nav-left {
+  padding: 1px 10px;
+
+  .imgbox img {
+    width: 60%;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: #636363;
+    margin: 0 7px;
+    word-spacing: 1px;
+    font-size: 14px;
+  }
+
+}
+
+.nav-right {
+
+  padding: 1px 10px;
+
+
+  .ferdi {
+    width: 20%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid $maincolor;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    color: $maincolor;
+
+  }
+
+  .defaultcolor {
+    color: black;
+    border: 1px solid #ffffffff;
+  }
+
+  .color {
+    color: $maincolor;
+    cursor: pointer;
+    border: 1px solid $maincolor;
+  }
+
+  .biznes {
+    width: 20%;
+    padding: 6px 10px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .word {
+    padding-left: 13px;
+  }
+
+  .word2 {
+    padding-left: 10px;
+  }
+
+  .darkmode {
+    width: 9%;
+    display: inline-block;
+  }
+
+  .translate {
+    width: 12%;
+    padding: 5px 13px;
+    border-radius: 6px;
+    margin-left: 40px;
+    background-color: #ffffff;
+  }
+
+  .translate2 {
+
+    width: 12%;
+    padding: 5px 13px;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    display: inline;
+
+  }
+
+  .search {
+    width: 8%;
+    padding: 5px 13px;
+    border-radius: 6px;
+    margin-left: 10px;
+    background-color: #ffffff;
+
+  }
+
+
+
+}
+
+.nav2left {
+  padding-top: 30px;
+  display: flex;
+  gap: 45px;
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+
+  }
+
+}
+
+.nav2right {
+  padding-top: 30px;
+  width: 100%;
+
+  .phone {
+    width: 35%;
+    border-radius: 30px;
+    padding: 13px 25px;
+    border: 1px solid rgb(221, 220, 220);
+    display: inline-block;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 5px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+
+
+  }
+
+  .bankciliq {
+    width: 63%;
+    border-radius: 30px;
+    padding: 13px 15px;
+    border: 1px solid rgb(221, 220, 220);
+    display: inline-block;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 700;
+    }
+
+
+  }
+}
+main{
+  #maps{
+    h3{
+      color: $maincolor;
+        margin-top: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    #map {
+      width: 100%;
+      height: 325px;
+      margin-top: 90px;
+         
+      }
+      .allbuttons{
+          button{
+        padding: 15px 35px;
+        background-color: #FAFAFA;
+         margin: 0px 5px;
+         color: grey;
+         border: 2px solid  grey;
+         border-radius: 40px;
+      }
+
+      }
+    
+      #firstbtn{
+        padding: 15px 35px;
+         margin: 0px 5px;
+         border-radius: 40px;
+
+      }
+      .active{
+           color: $maincolor !important;
+           font-weight: bold !important;
+           padding: 15px 35px;
+           margin: 0px 5px;
+           border-radius: 40px;
+           border: 2px solid rgb(209, 95, 14);
+           border-color: $maincolor !important;
+           background-color: #ffffff;
+      }
+  }
+  #xidmetvaxtlari{
+    margin: 20px;
+    .xidmetvaxtlari{
+     
+     
+      .samecard{
+        background-color: #FAFAFA;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        &:hover{
+
+          background-color: $maincolor;
+          color: #ffffff;
+          font-weight: bold;
+          i{
+            color:#ffffff !important;
+          }
+
+        }
+        i{
+          color: $maincolor;
+        }
+        
+        .lefttext{
+          h4{
+            padding-top: 20px;
+            padding-left: 30px;
+          }
+          p{
+            width: 160%;
+            padding-left: 30px;
+          }
+    
+        }
+        .center{
+          display: flex;
+          padding-top: 20px;
+          i{
+            font-size: 40px;
+            padding-right: 8px;
+            padding-top: 6px;
+          }
+          p{
+            width: 65%;
+          }
+           
+            
+    
+        }
+        .right{
+          display: flex;
+           padding-top: 20px;
+            
+          i{
+            padding-top: 6px;
+            padding-right: 10px;
+            font-size: 40px;
+          }
+          p{
+            width: 65%;
+          }
+        }
+         
+     }
+    }
+
+
+    .xidmetvaxtlari{
+     
+     
+      .samecard2{
+        background-color: #FAFAFA;
+        width: 100%;
+        &:hover{
+          transition: .5s;
+          background-color: $maincolor;
+          color: #ffffff;
+          i{
+            color: #ffffff !important;
+          }
+
+        }
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        .lefttext2{
+          h4{
+            padding-top: 20px;
+            padding-left: 30px;
+            width: 140%;
+          }
+          p{
+            width: 160%;
+            padding-left: 30px;
+          }
+    
+        }
+        .center2{
+          display: flex;
+          padding-top: 30px;
+          padding-left: 90px;
+          i{
+            font-size: 40px;
+            padding-right: 8px;
+            padding-top: 6px;
+            color: $maincolor;
+          }
+          p{
+            width: 65%;
+          }
+           
+            
+    
+        }
+        .right2{
+          display: flex;
+           padding-top: 30px;
+           padding-right: 0px;
+           width: 45%;
+            
+          i{
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 40px;
+          }
+          p{
+            font-size: 13px;
+            width: 90%;
+            padding-top: 10px
+          }
+        }
+        .right3{
+          display: flex;
+           padding-top: 30px;
+           width: 35%;
+            
+          i{
+            padding-top: 0px;
+            padding-right: 15px;
+            font-size: 40px;
+          }
+          p{
+            font-size: 13px;
+            width: 90%;
+            padding-top: 10px
+          }
+        }
+         
+     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    
+   
+    
+  }
+}
+@import "importxidmet";
